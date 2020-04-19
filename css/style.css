@@ -1,0 +1,368 @@
+/* basic */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 90vh;
+}
+
+.d-block {
+    display: block;
+}
+
+.margin-right {
+    margin-right: 1rem !important;
+}
+
+.margin-bottom {
+    margin-bottom: 1rem !important;
+}
+
+.margin-top {
+    margin-top: 1rem !important;
+}
+
+.margin-y {
+    margin: 2rem auto !important;
+}
+
+.container {
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(22, 20, 20);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.font-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+/* text */
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-nowrap {
+    white-space: nowrap !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-judul {
+    text-transform: uppercase;
+    text-align: center !important;
+    margin-top: 50px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-white {
+    color: white;
+}
+
+/* end text */
+
+/* tabel */
+.table {
+    border-collapse: collapse !important;
+    width: 100%;
+}
+
+.table td,
+.table th {
+    background-color: #ffffff !important;
+    padding: 15px;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6 !important;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* end tabel */
+
+/* button */
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #007bff;
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-warning {
+    color: #1F2D3D;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    box-shadow: none;
+}
+
+.btn-warning:hover {
+    color: #1F2D3D;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-danger {
+    color: #ffffff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    box-shadow: none;
+}
+
+.btn-danger:hover {
+    color: #ffffff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-success {
+    color: #ffffff;
+    background-color: #2d8b0e;
+    border-color: #2d8b0e;
+    box-shadow: none;
+}
+
+.btn-success:hover {
+    color: #ffffff;
+    background-color: #2d8b0ebb;
+    border-color: #2d8b0e;
+}
+
+/* end button */
+
+/* nav */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    padding: 15px;
+    padding-left: 40px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.icon img {
+    background: rgb(248, 243, 243);
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+/* end nav */
+
+/* form */
+input[type=text],
+input[type=password],
+select,
+textarea,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* end form */
+
+/* sambutan */
+/* style sambutan */
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.sambutan img {
+    width: 40%;
+    height: 400px;
+    margin: 2% auto;
+}
+
+.sambutan img:hover {
+    border: 5px solid red;
+    transition: 0.8s;
+}
+
+.sambutan p {
+    width: 40%;
+    text-align: justify;
+    line-height: 40px;
+    margin: 5%;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 3% 0;
+}
+
+@media screen and (max-width: 750px) {
+    .sambutan {
+        display: block;
+    }
+
+    .sambutan img {
+        width: 90%;
+        margin: 5%;
+    }
+
+    .sambutan p {
+        width: 90%;
+        margin: 5%;
+    }
+}
+
+/* end sambutan */
+
+/* berita */
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+
+.col-box {
+    position: relative;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.box-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+@media (min-width: 768px) {
+    .col-box {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+}
+
+/* end berita */

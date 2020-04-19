@@ -1,0 +1,26 @@
+#######    #     ###   ### ###  ###  ###   #######    #     ###  ### ### #####   
+   #       ##     ##   ##   #    #  #  #      #       ##     #    #   #   #   #  
+   #      ###     ###  ##   #    #  #         #      ###     #    #   #   #   #  
+   #      #  #    # # # #   #    #   #        #      #  #    ######   #   #  #   
+   #     #####    # # # #   #    #    ##      #     #####    #    #   #   ####   
+   #     #   ##   #  #  #   #    #     #      #     #   ##   #    #   #   #  #   
+   #    ##    #   #  #  #   #    #  #  #      #    ##    #   #    #   #   #  ##  
+  ###   ##   ### ###   ###   ####   ###      ###   ##   ### ###  ### ### ###  ## 
+
+
+PHP VERSION TEST 7.2 
+WEB RESPONSIVE DIBUAT MANUAL DENGAN CSS DAN JAVASCRIPT TANPA FRAMEWORK DAN LIBRARY TAMBAHAN
+
+==> lihat header terdapat penambahan meta tag
+
+login
+url 	: http://localhost/studi-kasus-responsive/login.php
+
+admin
+user	: admin
+pass	: admin
+
+operator
+user	: operator
+pass	: operator
+
